@@ -30,7 +30,7 @@ _show_random_pokemon(){
     #selecting a random art file from the whole set
 
     # total number of art files present
-    NUM_ART=$(ls -1 "$POKEART_DIR"|wc -l| xargs)
+    NUM_ART=386 #$(ls -1 "$POKEART_DIR"|wc -l| xargs)
     # getting a random index from 0-NUM_ART. (using gshuf instead of $RANDOM for POSIX compliance)
     randint=$(( $RANDOM ))
     random_index=$(( $randint % NUM_ART >= 1 ? randint % NUM_ART : 1 ))
