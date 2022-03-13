@@ -9,3 +9,6 @@ images
 
 # ignore testing files
 test_*
+
+# ignore config file
+config.sh

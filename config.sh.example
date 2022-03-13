@@ -1,0 +1,2 @@
+export INSTALL_DIR="$HOME/.local/lib"
+export BIN_DIR="$HOME/.local/bin"
